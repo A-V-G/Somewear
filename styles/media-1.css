@@ -1,0 +1,199 @@
+
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1200px){
+}
+	
+
+/*Medium Devices, Desctops*/
+@media only screen and (max-width: 992px) {
+
+.content-base {
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+.product-name {
+	font-size: 12px;
+}
+
+
+.footer {
+	  padding: 0 3% 25px;
+}
+
+.footer-form-head {
+	font-size: 12px;
+}
+
+}
+
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+
+.header-top {
+	 flex-direction: column;
+	 text-align: center;
+}
+
+.logo {
+	order:-1;
+}
+
+.top-nav li {
+padding: 0 10px;
+}
+
+.main-nav a {
+	font-size: 14px;
+}
+
+.content-base {
+	padding: 0;	
+}
+
+.content {
+	position: relative;
+}
+
+.sidebar-mob {
+	display:inline-block;
+	position:fixed;
+	left:-15px;
+	transform: rotate(90deg);
+}
+
+.sidebar {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;		
+	background: purple;
+	background: rgba(128, 0, 128, 0.5);
+	z-index: 999;
+	transition: all 0.5s;
+	cursor: pointer;
+	padding: 20px;
+	display: none;
+}
+
+.close-sidebar {
+	content: "X";
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	right:20px;
+	color:#fff;
+	font-size: 32px;
+	padding: 10px;
+	border:none;
+	background: transparent;
+	cursor:pointer;
+	outline: none;
+	z-index: 9999999999;
+}
+
+
+.assort .assort-item p {
+	color:#fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.assort-item p:hover{
+  border-bottom:1px solid #fff;
+}
+
+.assort-item-in {
+	padding-left: 30%;
+}
+
+.assort-item-in a {
+	color:#fff;
+}
+
+.menu-name-mob {
+	display: block;
+}
+
+.content .main-content {
+	flex-basis:100%;
+	padding: 5%;
+}
+
+.nav-options {
+	text-align: right;
+}
+
+.content-product {
+	justify-content: flex-start;
+	display: flex;
+}
+
+.item-product {
+	flex-shrink: 0;
+	flex-grow: 1;
+	text-align: center;
+	 flex-basis: 210px;
+}
+
+.item-product-img {
+	margin: 0 auto;
+}
+
+.footer {
+	flex-direction: column-reverse;
+	position: relative;
+	z-index: -1;
+	padding: 50px 5%;
+	box-sizing: border-box;
+}
+
+.footer-nav {
+	margin-top: 30px;
+}
+
+.footer-form {
+	margin: 0 auto;
+}
+
+
+
+.footer-soc-link {
+	position: absolute;
+	top: 0;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+}
+
+/*Extra Small Devices,Phones*/
+@media only screen and (max-width: 480px) {
+
+	.main-nav a {
+	font-size: 12px;
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-nav li {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+}
+
+
+
+
+/*Custom, Iphone Retina*/
+
+@media only screen and (max-width: 320px) {}
+
